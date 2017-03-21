@@ -214,8 +214,8 @@ $(function(){
   function colorBkgGrowStep4(){
 
     $("#box-6").animate({width: "22.5%"}, 1800);
-    $("#box-7").animate({height: "90%"}, 2000);
-    $("#box-8").animate({width: "25%"}, 1800);
+    $("#box-7").animate({height: "79%"}, 2000);
+    $("#box-8").animate({width: "22.5%"}, 1800);
 
     $("#d-1-name").animate({opacity: '1'}, 2400);
 

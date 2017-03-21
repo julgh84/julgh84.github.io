@@ -696,6 +696,8 @@ nav{
   flex-direction: row;
   justify-content: space-between;
 
+
+
 }
 
 .content-decade-1A{
@@ -711,7 +713,7 @@ nav{
   z-index: 1;
   /*left: 15%;*/
 
-  width: 80%;
+  width: 100%;
   height: 96rem;
 
   background-color: rgba(255,255,255,0.08);
@@ -737,10 +739,12 @@ nav{
   display: flex;
   flex-direction: column;
 
-  text-align: center;
+  text-align: right;
   padding-top: 1rem;
+  padding-right: 30px;
 
-  padding-left: 50px;
+  color: white;
+
 }
 
 .y-1944{
@@ -772,6 +776,20 @@ nav{
   margin-bottom: 0;
 }
 
+
+.content-1A{
+
+  margin-top: 0px;
+  height: 96rem;
+
+  padding-left: 3rem;
+
+}
+
+.info-content-1A{
+  padding-top: 8.25rem;
+  padding-left: 6rem;
+}
 
 
 .pic-1A{
@@ -828,10 +846,11 @@ nav{
 
   background-blend-mode: multiply;
 
-  width: 85%;
+  width: 100%;
   height: 100%;
-  top: 12%;
-  left: 13%;
+
+  margin-top: 0;
+  margin-left: 0px;
 }
 
 
