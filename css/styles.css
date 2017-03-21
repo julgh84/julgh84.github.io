@@ -739,9 +739,9 @@ nav{
   display: flex;
   flex-direction: column;
 
-  text-align: right;
+  text-align: center;
   padding-top: 1rem;
-  padding-right: 7rem;
+  padding:0 auto;
 
   color: white;
 
