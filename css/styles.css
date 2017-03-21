@@ -713,7 +713,7 @@ nav{
   z-index: 1;
   /*left: 15%;*/
 
-  width: 90%;
+  width: 85%;
   height: 96rem;
 
   background-color: rgba(255,255,255,0.08);
@@ -741,7 +741,7 @@ nav{
 
   text-align: right;
   padding-top: 1rem;
-  padding-right: 30px;
+  padding-right: 7rem;
 
   color: white;
 
