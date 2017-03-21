@@ -114,7 +114,8 @@ nav{
 
 .box{
   
-  /*background-color: rgba(255,255,255,0.14);*/
+  background-color: rgba(255,255,255,0.14);
+  border: 1px solid white;
   
   color: white;
   margin-left: 0;
@@ -125,14 +126,7 @@ nav{
 
 /*Step-1*/
 
-
 .intro{
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  background-color: black;
 
   position: relative;
   margin-top: 0px;
@@ -140,18 +134,43 @@ nav{
 }
 
 
-.introMiles{
+.layout-intro{
 
-  width: 60%;
-  height: 60%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.layout-intro .row{
+
+  width: 100%;
+  margin-top: 150px;
+
+  border: 1px solid white;
+  justify-content: center;
+
   position: absolute;
   z-index: 1;
-  margin-top: 18%;
+
+}
+
+.intro-content{
+  margin-left:5%; 
+}
+
+
+.introMiles{
+
+  width:50%;
+  height: 60rem;
   margin-left: 35%;
+
   
 }
 
 .introMiles img {
+  padding-top: 5%;
   max-width: 100%;
 }
 
@@ -161,15 +180,22 @@ nav{
   display: flex;
   flex-direction: column;
   width: 75%;
-  height: 80%;
+  height: 60rem;
 
   position: absolute;
   z-index: 1;
   
   margin-right: 25%;
-  margin-top:25%;
+  /*margin-top:18%;*/
 
 }
+
+
+.info-container h1{
+  margin-top: 2rem;
+}
+
+
 
 
 .description-1{
@@ -211,7 +237,7 @@ nav{
 
 .boxes-right{
 
-  width: 100%;
+  width: 115%;
   height: 52%;
   display: flex;
   flex-direction: column;
@@ -332,29 +358,80 @@ nav{
 
 
 .timeline{
+
   position: relative;
-
-  padding-top: 0px;
-  padding-bottom: 0px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   margin-top: 0px;
-  width: 100%;
-
- /* margin-top: 100px;*/
 
 }
 
+.layout-intro-timeline{
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5%;
+
+
+}
+
+.layout-intro-timeline .col-lg-12{
+
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+
+
+.layout-intro-timeline .row{
+
+  justify-content: center;
+  height: 40%;
+  width: 80%;
+
+  margin-bottom: 1%; 
+
+}
+
+
 .headline-2{
+
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
 
-  margin-top: 4%;
- 
+  margin-top: 7rem;
+  margin-left: 0; 
+
+  width: 100%;
+  padding-left: 0;
+
+}
+
+
+.headline-2 h2{
+
+  margin-left: 0;
+  margin-top: 3rem; 
+
+}
+
+
+
+#box-5{
+
+  margin-top: 13rem;
+  margin-left: 55%;
+
+  height: 3rem;
+  width: 0px;
+  background-color: #00AEEF;
+
+  align-items: flex-start;
+
+  position: absolute;
+  z-index: 1;
+
 }
 
 
@@ -367,6 +444,8 @@ nav{
   margin-top:3%;
   margin-bottom: 1%; 
   height: 30rem;
+  margin-left: 1rem;
+
 
 }
 
@@ -482,22 +561,12 @@ nav{
   left: 3%;
 }
 
-
-#box-5{
-
-  margin-top: -19%;
-  left: 65%;
-
-  height: 4rem;
-  width: 0px;
-  background-color: #00AEEF;
-
-  justify-content: flex-start;
-
-  position: absolute;
-  z-index: 1;
-
+.description-timeline{
+  margin-top: -1%;
 }
+
+
+
 
 /*Step-3*/
 
@@ -508,11 +577,23 @@ nav{
 
 
 .decade-1{
+
   position: relative;
-  padding-top: 0px;
+  margin-top: 0px;
+
+/*  padding-top: 0px;
   padding-bottom: 0px;
 
-  width: 100%;
+  width: 100%;*/
+
+}
+
+.layout-decade-1{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 
 }
 
@@ -528,16 +609,25 @@ nav{
 
   margin-top: 45rem;
 
+  text-align: center;
+
+}
+
+.bkg-animate-step4{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
 #box-6{
 
-  width: 0px;
-  height: 80%;
+  width: 22.5%;
+  height: 90%;
 
-  top: 12%;
-  left: -15%;
+  /*margin-top: 12%;*/
+  /*left: -15%;*/
 
   position: absolute;
   z-index: 0;
@@ -549,9 +639,8 @@ nav{
 #box-7{
 
   width: 50%;
-  height: 0px;
+  height: 90%;
 
-  top: 12%;
   left: 25%;
 
   position: absolute;
@@ -563,10 +652,10 @@ nav{
 
 #box-8{
 
-  width: 0px;
-  height: 80%;
+  width: 25%;
+  height: 90%;
 
-  top: 12%;
+  /*top: 12%;*/
   left: 77.5%;
 
   position: absolute;
@@ -1548,6 +1637,19 @@ nav{
 /*Step-11*/
 
 /*//////////////////////////////*/
+
+
+/*making it responsive*/
+
+@media only screen and (max-width: 750px) {
+
+.introMiles img {
+  max-width: 50%;
+}
+
+
+
+}
 
 
 

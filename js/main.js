@@ -43,7 +43,7 @@ $(function(){
     } else if(currentStep.id==='step-4')
     {
 
-      colorBkgGrowStep4();
+      // colorBkgGrowStep4();
       
       // logic to fadeout
       $('#song-1').animate({volume: 0}, 1000);
@@ -192,7 +192,7 @@ $(function(){
     $("#p-4").animate({height: "50px"}, 1600);
     $("#p-5").animate({height: "50px"}, 1700);
 
-    $("#box-5").animate({width: "50%"}, 1200);
+    $("#box-5").animate({width: "43%"}, 1200);
 
   };
 
@@ -213,9 +213,9 @@ $(function(){
 
   function colorBkgGrowStep4(){
 
-    $("#box-6").animate({width: "37%"}, 1800);
-    $("#box-7").animate({height: "80%"}, 2000);
-    $("#box-8").animate({width: "40%"}, 1800);
+    $("#box-6").animate({width: "22.5%"}, 1800);
+    $("#box-7").animate({height: "90%"}, 2000);
+    $("#box-8").animate({width: "25%"}, 1800);
 
     $("#d-1-name").animate({opacity: '1'}, 2400);
 
