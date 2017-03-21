@@ -696,12 +696,13 @@ nav{
   flex-direction: row;
   justify-content: space-between;
 
-
-
 }
 
+
+
+
 .content-decade-1A{
-  /*margin-left: 30px;*/
+
   margin-top: 0px;
 }
 
@@ -781,16 +782,13 @@ nav{
 
   margin-top: 0px;
   height: 96rem;
-
-  /*padding-left: 3rem;*/
-
   padding-right: 0;
 
 }
 
 .info-content-1A{
   padding-top: 8.25rem;
-  padding-left: 6rem;
+  padding-left: 7rem;
 }
 
 
@@ -863,8 +861,14 @@ nav{
 
 /*Step-6*/
 
+.decade-2A{
 
-.layout-2A .content-transition-2{
+  position: relative;
+  margin-top: 0px;
+
+}
+
+.layout-1A-t{
 
   display: flex;
   flex-direction: row;
@@ -872,16 +876,32 @@ nav{
 
 }
 
-.content-2A{
 
-  margin-left: 36px;
+
+.content-transition-2{
+
+  margin-top: 0px;
 
 }
 
 
+
 .timeline-t1A{
 
-  position: absolute;
+  /*position: absolute;*/
+  z-index: 1;
+  /*left: 15%;*/
+
+  width: 79%;
+  height: 96rem;
+
+  background-color: rgba(255,255,255,0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+/*  position: absolute;
   z-index: 1;
   left: 15%;
   top: 0rem;
@@ -893,27 +913,51 @@ nav{
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start;*/
 
 }
 
-.transition-2-content{
 
-  margin-left: 0px;
-  margin-top: 50px;
+
+.layout-transition-2 {
+
+  margin-top: 0px;
+  margin-left: 0;
+  height: 96rem;
+  padding-right: 0;
+  padding-top: 15rem;
+
+  /*padding-top: 8.25rem;*/
 
 }
+
+
+
+.info-content-t-1A{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start; 
+
+height:65rem;
+width: 100%;
+
+margin-left: 0;
+margin-top: 0;
+
+}
+
+
 
 
 .trumpet-illustration{
 
-  position: absolute;
-  z-index: 1;
 
   width: 70%;
-  height: 60rem;
+  height: 65rem;
+  padding-top: 0;
 
-  top: 150px;
+  /*top: 150px;*/
   /*background-color: rgba(255,255,255,0.08);*/
 
   display: flex;
@@ -923,10 +967,9 @@ nav{
 
 .trumpet-illustration img{
   align-self: flex-start;
+  width: 29rem;
 
-  width: 28rem;
-  margin-top: -21%;
-  left: -20%;
+  margin-top: -10%;
 
 }
 
@@ -937,20 +980,21 @@ nav{
   z-index: 1;
 
   width: 120%;
-  height: 50rem;
-  margin-left: -27%;
+  height: 65rem;
 
-  top: 130px;
-  /*background-color: rgba(255,255,255,0.08);*/
+  margin-left: -8%;
+  padding-top: 10%; 
+  left: 0;
 
 }
+
 
 .transition-2-txt p{
   font-weight: 100;
   font-size: 28px;
   line-height: 1.8;
 
-  padding-top: 2rem;
+  /*padding-top: 2rem;*/
 }
 
 .animate-bkg-slide6{
@@ -959,19 +1003,19 @@ nav{
   flex-direction: column;
   justify-content: center;
 
+  width: 100%;
+
 }
-
-
 
 
 #box-9{
   align-self: flex-start;
 
-  width: 75%;
+  width: 91%;
   height: 0%;
 
   top: 12%;
-  left: 17%;
+  /*left: 17%;*/
 
   position: absolute;
   z-index: 0;
@@ -984,11 +1028,11 @@ nav{
 
   align-self: flex-start;
 
-  width: 75%;
+  width: 91%;
   height: 0%;
 
-  top: 83%;
-  left: 17%;
+  top: 85%;
+ /* left: 17%;*/
 
   position: absolute;
   z-index: 0;
