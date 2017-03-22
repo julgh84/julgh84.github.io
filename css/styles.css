@@ -114,8 +114,8 @@ nav{
 
 .box{
   
-  background-color: rgba(255,255,255,0.14);
-  border: 1px solid white;
+ /* background-color: rgba(255,255,255,0.14);
+  border: 1px solid white;*/
   
   color: white;
   margin-left: 0;
@@ -238,7 +238,7 @@ nav{
 
 .boxes-right{
 
-  width: 53%;
+  width: 52.6%;
   height: 52%;
   display: flex;
   flex-direction: column;
@@ -284,39 +284,66 @@ nav{
 
 /*Step-2*/
 
+
 .transition-1{
   position: relative;
+  margin-top: 0px;
+}
+
+}
+
+.layout-t1{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  width: 90%;
+  height: 90%;
 
 }
 
 
 .transition-1 .row{
 
-  height: 40%;
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 34rem;
+  height: 80%;
+ /* width: 80%;*/
 
 }
 
 
+.t1-content{
+
+  width: 75%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 16rem;
+
+}
+
+.quote-1{
+
+  height: 100%;
+  width: 100%;
+
+}
+
 .quote-1 p{
   font-weight: 100;
-  font-size: 5rem;
+  font-size: 4.5rem;
   line-height: 1.7;
 
-  position: absolute;
-  z-index: 1;
+  margin-left: -17rem;
+  margin-top: -120px;
+  padding-top: 0;
+  padding-left:0;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
 
-  padding-left:0%;
-  padding-right: 10%;
-  padding-top: 1.5%;
+ /* padding: 0 4rem 0 5rem;*/
 
-  left: -3%;
-
-  /*align-self: flex-start;*/
 }
 
 
@@ -324,7 +351,7 @@ nav{
 
   position: absolute;
   z-index: 1;
-  margin-top: 13rem;
+  margin-top: -5rem;
 
 }
 
@@ -333,7 +360,7 @@ nav{
   
   font-weight: 100;
   font-style: italic;
-  font-size: 3.2rem;
+  font-size: 3rem;
 
 }
 
@@ -789,6 +816,9 @@ nav{
 .info-content-1A{
   padding-top: 8.25rem;
   padding-left: 7rem;
+
+  position: absolute;
+  z-index: 1;
 }
 
 
@@ -852,6 +882,9 @@ nav{
   left: 0;
   margin-top: 0;
   margin-left: 0;
+
+  position: absolute;
+  z-index: 0;
 }
 
 
@@ -921,7 +954,7 @@ nav{
 
 .layout-transition-2 {
 
-  margin-top: 0px;
+  margin-top: -10px;
   margin-left: 0;
   height: 96rem;
   padding-right: 0;
@@ -979,11 +1012,11 @@ margin-top: 0;
   position: absolute;
   z-index: 1;
 
-  width: 120%;
+  width: 100%;
   height: 65rem;
 
   margin-left: -8%;
-  padding-top: 10%; 
+  padding-top: 6rem; 
   left: 0;
 
 }
@@ -991,7 +1024,7 @@ margin-top: 0;
 
 .transition-2-txt p{
   font-weight: 100;
-  font-size: 28px;
+  font-size: 2.7rem;
   line-height: 1.8;
 
   /*padding-top: 2rem;*/
@@ -1726,7 +1759,7 @@ margin-top: 0;
 
 /*making it responsive*/
 
-@media only screen and (max-width: 750px) {
+/*@media only screen and (max-width: 750px) {
 
 .introMiles img {
   max-width: 50%;
@@ -1734,7 +1767,7 @@ margin-top: 0;
 
 
 
-}
+}*/
 
 
 
