@@ -92,9 +92,15 @@ p{
 }
 
 
+h2{
+  text-transform: uppercase;
+  font-size: 7rem;
+  font-weight: 400;
+}
+
 .caja{
   
- /* background-color: rgba(255,255,255,0.14);
+/*  background-color: rgba(255,255,255,0.14);
   border: 1px solid white;*/
   
   color: white;
@@ -317,7 +323,7 @@ p{
 
 .quote-1{
 
-  margin-top: 12rem;
+  margin-top: 8rem;
   margin-left: -10rem;
 
   height: 50rem;
@@ -367,6 +373,238 @@ p{
 /*//////////////////////////////*/
 
 /*Step-3*/
+
+.timeline{
+
+  position: relative;
+  margin-top: 0px;
+
+}
+
+
+.layout-intro-timeline{
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: -10px;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+
+.content-intro-timeline{
+
+  margin:0 auto;
+  margin-top: 6rem;
+
+  width: 90%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.headline-2{
+
+  margin-top: 8rem;
+  margin-left: -15rem;
+  /*height: 50rem;*/
+  width: 100%;
+
+}
+
+
+.headline-2 h2{
+
+  font-size: 4.5em;
+
+}
+
+
+.timeline-chart{
+
+  display: inline-flex;
+  flex-direction: row;
+
+  border: 0.5px solid rgba(255,255,255,0.5);
+
+  margin-left: -15rem;
+  margin-top:3%;
+  margin-bottom: 1%; 
+
+  height: 30rem;
+  width: 100%;
+
+}
+
+
+.period{
+  background-color: rgba(255,255,255,0.14);
+  /*width: 200px;*/
+
+  display: flex;
+  flex-direction: row;
+
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+
+.pre-jazz{
+  flex-grow: 3;
+  margin-left: 0px;
+}
+
+.first-d{
+  flex-grow: 3;
+  /*background-color: rgba(255,255,255,0.28);*/
+}
+
+.second-d{
+  flex-grow: 3;
+}
+
+.third-d{
+  flex-grow: 3;
+  /*background-color: rgba(255,255,255,0.28);*/
+}
+
+.fourth-d{
+  flex-grow: 3;
+}
+
+.fifth-d{
+  flex-grow: 2;
+  /*background-color: rgba(255,255,255,0.28);*/
+  margin-right: 0px;
+}
+
+
+.score{
+  width: 100px;
+  height: 0px;
+  background-color: white;
+
+  margin-left: 30%;
+
+}
+
+.pre-jazz .score, .first-d .score, .second-d .score, .third-d .score, .fourth-d .score, .fifth-d .score{
+ 
+  align-self: flex-end;
+  justify-content: center;
+
+}
+
+
+.dates{
+
+  width: 100%;
+  margin-left: -15rem;
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between; 
+
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+
+}
+
+
+.d-1, .d-2, .d-3, .d-4, .d-5, .d-6, .d-7{
+
+  padding-left: 0px;
+  text-align: center;
+}
+
+
+.d-1{
+  right: 1.5%;
+}
+
+.d-2{
+  right: 2.5%;
+}
+
+.d-3{
+  right: 1%;
+}
+
+.d-4{
+  left: 0.5%;
+}
+
+.d-5{
+  left: 2%;
+}
+
+.d-6{
+  left: 3.75%;
+}
+
+.d-7{
+  left: 3%;
+}
+
+.description-timeline{
+  margin-left: -16rem;
+  margin-top: 6rem;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start; 
+
+}
+
+.c-des{
+
+  margin-right:7rem;
+  width: 42.5%;
+}
+
+
+.description-timeline p{
+
+  font-size: 1.7em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -429,6 +667,48 @@ p{
   /*//////////////////////////////*/
 
   /*Step-3*/
+
+  .content-intro-timeline{
+
+    margin-top: 10rem;
+
+  }
+
+
+
+  .headline-2{
+
+    margin-left: 0px;
+    width: 140rem;
+  }
+
+  .timeline-chart{
+
+    margin-left: 0px;
+    width: 140rem;
+
+  }
+
+  .dates{
+
+    margin-left: 0px;
+    width: 140rem;
+
+  }
+
+  .description-timeline{
+
+    margin-left: 0px;
+    width: 140rem;
+
+  }
+
+
+
+
+
+
+
 
 
 }
