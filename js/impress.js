@@ -196,8 +196,8 @@
 
     // Some default config values.
     var defaults = {
-        width: 1024,
-        height: 768,
+        width: 1800,
+        height: 960,
         maxScale: 1,
         minScale: 0,
 
@@ -365,7 +365,7 @@
 
             css( body, {
                 height: "100%",
-                // overflow: "hidden"
+                overflow: "hidden"
             } );
 
             var rootStyles = {
@@ -439,7 +439,7 @@
             //
             // If you are reading this and know any better way to handle it, I'll be glad to hear
             // about it!
-            window.scrollTo( -100, 0 );
+            window.scrollTo( 0, 0 );
 
             var step = stepsData[ "impress-" + el.id ];
 
@@ -608,7 +608,6 @@
                 event.target.classList.remove( "past" );
                 event.target.classList.remove( "future" );
                 event.target.classList.add( "present" );
-    
             }, false );
 
             root.addEventListener( "impress:stepleave", function( event ) {
@@ -617,9 +616,6 @@
             }, false );
 
         }, false );
-
-
-
 
         // Adding hash change support.
         root.addEventListener( "impress:init", function() {
@@ -828,8 +824,6 @@
         }, 250 ), false );
 
     }, false );
-
-
 
 } )( document, window );
 

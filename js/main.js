@@ -16,8 +16,8 @@ $(function(){
 
       colorBkgFadeStep2();
       
-     $('#song-1').get(0).play();
-     $('#song-2').get(0).pause();
+     // $('#song-1').get(0).play();
+     // $('#song-2').get(0).pause();
 
     } else if(currentStep.id==='step-2')
     {
@@ -192,7 +192,7 @@ $(function(){
     $("#p-4").animate({height: "50px"}, 1600);
     $("#p-5").animate({height: "50px"}, 1700);
 
-    $("#box-5").animate({width: "43%"}, 1200);
+    // $("#box-5").animate({width: "43%"}, 1200);
 
   };
 
@@ -206,7 +206,7 @@ $(function(){
     $("#p-5").animate({height: "0px"}, 600);
 
 
-    $("#box-5").animate({width: "0%"}, 1200);
+    // $("#box-5").animate({width: "0%"}, 1200);
 
 
   };
