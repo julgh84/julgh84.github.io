@@ -239,7 +239,7 @@ $(function(){
 
   function colorBkgGrowStep6(){
 
-    $("#box-9").animate({height: "98%"}, 1800);
+    $("#box-9").animate({height: "80rem"}, 1800);
     $("#box-10").animate({height: "11%"}, 1800);
     $("#trumpet").animate({opacity: '1'}, 1800);
 
