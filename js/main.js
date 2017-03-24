@@ -15,6 +15,7 @@ $(function(){
       colorBkgGrowStep1();
 
       colorBkgFadeStep2();
+      colorBkgFadeStep4();
       
      // $('#song-1').get(0).play();
      // $('#song-2').get(0).pause();
@@ -43,7 +44,7 @@ $(function(){
     } else if(currentStep.id==='step-4')
     {
 
-      // colorBkgGrowStep4();
+      colorBkgGrowStep4();
       
       // logic to fadeout
       $('#song-1').animate({volume: 0}, 1000);
@@ -192,7 +193,9 @@ $(function(){
     $("#p-4").animate({height: "50px"}, 1600);
     $("#p-5").animate({height: "50px"}, 1700);
 
-    // $("#box-5").animate({width: "43%"}, 1200);
+    $("#box-5").animate({width: "43%"}, 1200);
+
+    colorBkgFadeStep4();
 
   };
 
@@ -213,20 +216,20 @@ $(function(){
 
   function colorBkgGrowStep4(){
 
-    $("#box-6").animate({width: "22.5%"}, 1800);
-    $("#box-7").animate({height: "79%"}, 2000);
-    $("#box-8").animate({width: "22.5%"}, 1800);
+    $("#box-6").animate({width: "25%"}, 1800);
+    $("#box-7").animate({height: "86%"}, 2000);
+    $("#box-8").animate({width: "25%"}, 1800);
 
     $("#d-1-name").animate({opacity: '1'}, 2400);
 
-
   };
+  
 
   function colorBkgFadeStep4(){
 
-    $("#box-6").animate({width: "0%"}, {opacity: '0'}, 600);
-    $("#box-7").animate({height: "0%"}, {opacity: '0'}, 600);
-    $("#box-8").animate({width: "0%"}, {opacity: '0'}, 600);
+    $("#box-6").animate({width: "0%"}, {opacity: '0'});
+    $("#box-7").animate({height: "0%"}, {opacity: '0'});
+    $("#box-8").animate({width: "0%"}, {opacity: '0'});
 
     $("#d-1-name").animate({opacity: '0'});
 

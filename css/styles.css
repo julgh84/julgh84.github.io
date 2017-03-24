@@ -98,9 +98,15 @@ h2{
   font-weight: 400;
 }
 
+h3{
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
 .caja{
   
-/*  background-color: rgba(255,255,255,0.14);
+ /* background-color: rgba(255,255,255,0.14);
   border: 1px solid white;*/
   
   color: white;
@@ -587,14 +593,354 @@ h2{
 }
 
 
+#box-5{
+
+  margin-top: 17rem;
+  margin-left: 55%;
+
+  height: 3rem;
+  width: 0px;
+ 
+  background-color: #00AEEF;
+
+  align-items: flex-start;
+  position: absolute;
+  z-index: 1;
+
+}
 
 
 
 
+/*//////////////////////////////*/
+
+/*Step-4*/
+
+
+.decade-1{
+
+  position: relative;
+  margin-top: 0px;
+
+}
+
+
+.layout-decade-1{
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: -10px;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+.content-decade-1{
+
+  margin:0 auto;
+  margin-top: 6rem;
+
+  width: 80%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.decade-title{
+
+  margin:0 auto;
+  height: 100%;
+  width: 70%;
+
+}
+
+
+.decade-title h2{
+
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.decade-title h3{
+
+  text-align: center;
+
+}
+
+
+.bkg-animate-step4{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#box-6{
+
+  width: 0%;
+  height: 86%;
+  margin-top: 7.5rem;
+  margin-left: -6%;
+
+  position: absolute;
+  z-index: 0;
+
+  background-color: #00AEEF;
+
+}
+
+#box-7{
+
+  width: 50%;
+  height: 0%;
+  margin-top: 7.5rem;
+  margin-left: 21.5%;
+
+  position: absolute;
+  z-index: 0;
+  background-color: #00CD9D;
+}
+
+
+#box-8{
+
+  width: 0%;
+  height: 86%;
+  margin-top: 7.5rem;
+  margin-left: 74%;
+
+  position: absolute;
+  z-index: 0;
+
+  background-color: #00AEEF;
+
+}
+
+/*//////////////////////////////*/
+
+/*Step-5*/
+
+
+.decade-1A{
+
+  position: relative;
+  margin-top: 0px;
+
+}
+
+
+.layout-decade-1A{
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: -10px;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+
+.content-decade-1A{
+
+  margin:0 auto;
+  margin-top: 5em;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+
+.timeline-p1A{
+
+  margin-left: 0;
+
+  width: 75%;
+  height: 92%;
+
+  background-color: rgba(255,255,255,0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+
+.p1A{
+ 
+  width: 100%;
+  height: 14rem;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  padding-top: 2rem;
+  padding:0 auto;
+
+}
+
+
+.y-1944{
+  flex-grow: 1;
+}
+
+.y-1945{
+  flex-grow: 1;
+  background-color: rgba(255,255,255,0.15);
+}
+
+.y-1946{
+  flex-grow: 1;
+}
+
+.y-1947{
+  flex-grow: 1;
+  background-color: rgba(255,255,255,0.15);
+}
+
+.y-1948{
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+
+.all-d1A{
+
+  position: relative;
+
+}
+
+.halftone-bkg{
+
+  position: absolute;
+  z-index: 0;  
+  background-image: url("img/halftone-2.jpg");
+  transform: scaleY(-1);
+  opacity: 0.25;
+
+  background-color: blue;
+
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 100%;
+
+  left: 0;
+  margin-top: 0;
+  margin-left: 0;
+
+  position: absolute;
+  z-index: 0;
+}
 
 
 
+.info-content-d1A{
 
+  margin: 0 auto;
+  margin-top: -2.5rem;
+  margin-left: -5rem;
+
+  height: 95%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+
+
+.pic-1A{
+
+
+  margin-left: 25rem; 
+  margin-top: -20rem;
+
+  width: 110rem;
+  height: 30rem;
+
+  position: absolute;
+  z-index: 1;
+
+ 
+
+}
+
+.pic-1A img{
+
+  width: 100%;
+
+}
+
+
+.decade1A-title{
+
+  margin-top: 3rem; 
+  margin-left: 25rem;
+  background-color: black;
+  width: 110rem;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+
+.description-1A{
+
+  margin-top: 50rem;
+  margin-left: 25rem;
+
+  width: 71.825%;
+
+}
+
+
+.description-1A p{
+
+  margin: 0 auto;  
+  font-size: 2rem;
+  background-color: black;
+
+}
 
 
 
@@ -704,10 +1050,59 @@ h2{
   }
 
 
+  /*//////////////////////////////*/
+
+  /*Step-5*/
+
+
+  .timeline-p1A, .all-d1A{
+
+    margin-left: 5rem;
+
+  }
+
+
+  .timeline-p1A{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+
+  }
+
+
+  .info-content-d1A{
+
+    margin-left: -10rem;
+    margin-top: 0.5rem;
+    width: 110%;
+
+  }
+
+  .pic-1A{
+
+    width: 125rem;
+
+  }
+
+  .decade1A-title{
+
+    width: 125rem;
+
+  }
+
+  .description-1A{
+    width: 70%;
+  }
 
 
 
+  .description-1A p{
 
+    font-size: 2.3rem;
+    margin-left: -2rem;
+
+  }
 
 
 
