@@ -216,7 +216,7 @@ $(function(){
 
   function colorBkgGrowStep4(){
 
-    $("#box-6").animate({width: "25%"}, 1800);
+    $("#box-6").animate({width: "21.25%"}, 1800);
     $("#box-7").animate({height: "86%"}, 2000);
     $("#box-8").animate({width: "25%"}, 1800);
 
@@ -239,8 +239,8 @@ $(function(){
 
   function colorBkgGrowStep6(){
 
-    $("#box-9").animate({height: "99%"}, 1800);
-    $("#box-10").animate({height: "10%"}, 1800);
+    $("#box-9").animate({height: "98%"}, 1800);
+    $("#box-10").animate({height: "11%"}, 1800);
     $("#trumpet").animate({opacity: '1'}, 1800);
 
   };

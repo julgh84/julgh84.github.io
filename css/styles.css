@@ -113,7 +113,7 @@ img{
 
 .caja{
   
-/*  background-color: rgba(255,255,255,0.14);
+  /*background-color: rgba(255,255,255,0.14);
   border: 1px solid white;*/
   
   color: white;
@@ -602,7 +602,7 @@ img{
 
 #box-5{
 
-  margin-top: 17rem;
+  margin-top: 14rem;
   margin-left: 55%;
 
   height: 3rem;
@@ -705,7 +705,7 @@ img{
   width: 0%;
   height: 86%;
   margin-top: 7.5rem;
-  margin-left: -6%;
+  margin-left: -2.5%;
 
   position: absolute;
   z-index: 0;
@@ -980,7 +980,7 @@ img{
 .content-transition-1A{
 
   margin:0 auto;
-  margin-top: 3em;
+  margin-top: 2em;
 
 
   width: 100%;
@@ -999,7 +999,7 @@ img{
   margin-top: 0em;
 
   width: 75%;
-  height: 91rem;
+  height: 94rem;
 
   background-color: rgba(255,255,255,0.08);
 
@@ -1052,7 +1052,7 @@ img{
 
 .transition-2-txt{
 
-  margin-top: 0em;
+  margin-top: 0.5em;
   margin-left: -2.5em;
 
   width: 100%;
@@ -1066,7 +1066,7 @@ img{
   font-weight: 100;
   font-size: 2.2em;
   line-height: 1.8;
-  padding-top: 0.8em;
+  padding-top: 0.6em;
   padding-bottom: 0.2em;
 
 }
@@ -1107,7 +1107,7 @@ img{
   width: 100%;
   height: 0%;
 
-  margin-top: 52em;
+  margin-top: 53em;
   margin-left: 2em;
 
   position: absolute;
@@ -1115,6 +1115,209 @@ img{
   background-color: #00CD9D;
 
 }
+
+/*//////////////////////////////*/
+
+/*Step-7*/
+
+
+.decade-1B{
+
+  position: relative;
+  margin-top: 0px;
+
+}
+
+
+.layout-decade-1B{
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: 0px;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+
+.content-decade-1B{
+
+  margin:0 auto;
+  margin-top: 13em;
+
+
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+
+.timeline-p1B{
+
+  margin-left: 0;
+  margin-top: -10em;
+
+  width: 17.5rem;
+  height: 93rem;
+
+  background-color: rgba(255,255,255,0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+
+.p1B{
+ 
+  width: 100%;
+  height: 14rem;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  padding-top: 2rem;
+  padding:0 auto;
+
+}
+
+
+.p1B .y-1948{
+  flex-grow: 1;
+  padding-top: 4rem;
+}
+
+.y-1949{
+  flex-grow: 1;
+  background-color: rgba(255,255,255,0.15);
+}
+
+
+.all-d1B{
+
+  position: relative;
+
+}
+
+.halftone-bkg2{
+
+  position: absolute;
+  z-index: 0;  
+  background-image: url("img/halftone-2.jpg");
+  transform: scaleY(-1);
+  opacity: 0.25;
+
+  background-color: #2bb673;
+
+  background-blend-mode: multiply;
+
+  width: 87.5%;
+  height: 96%;
+
+  left: 0;
+  margin-top: 2rem;
+  margin-left: 22rem;
+
+}
+
+
+.info-content-d1B{
+
+  margin-left: 8em;
+  margin-top: -13rem;
+
+  height: 100%;
+  width: 82%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+
+.description-1B{
+
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+
+
+.pic-1B{
+
+  margin-left: 3em;
+  margin-top: 6em;
+
+  width: 130rem;
+  height: 56rem;
+
+
+}
+
+.decade1B-title{
+
+  margin-left: 0;
+  margin-top: 0;
+  /*margin-top: 3rem;*/ 
+
+  background-color: black;
+  /*width: 110rem;*/
+
+}
+
+.decade1B-title h2{
+
+  padding-left: 0.5em;
+
+}
+
+.decade1B-description-txt{
+  margin-top: 3em;
+  width: 102%;
+}
+
+
+.decade1B-description-txt p{
+
+  margin-left: -0.5em;  
+  font-size: 2.35rem;
+  font-weight: 300;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  background-color: black;
+
+
+}
+
+
+
+
+
 
 
 
@@ -1308,6 +1511,7 @@ img{
   .content-transition-1A{
 
     margin-left: 7em;
+    margin-top: 17em;
     height: 80%;
 
   }
@@ -1337,9 +1541,6 @@ img{
   }
 
 
-
-
-
   .transition-2-txt{
 
     width: 95%;
@@ -1356,6 +1557,26 @@ img{
 
 
   }
+
+
+  /*//////////////////////////////*/
+
+  /*Step-7*/
+
+
+  .layout-decade-1B{
+  
+    margin-top: 60px;
+
+  }
+
+
+
+
+
+
+
+
 
 
 
