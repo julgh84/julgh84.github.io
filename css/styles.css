@@ -788,10 +788,10 @@ h3{
 .timeline-p1A{
 
   margin-left: 0;
-  margin-top: -8em;
+  margin-top: -9em;
 
   width: 75%;
-  height: 92rem;
+  height: 94rem;
 
   background-color: rgba(255,255,255,0.08);
 
@@ -818,7 +818,8 @@ h3{
 
 
 .y-1944{
-  flex-grow: 1;
+  flex-grow: 2;
+  padding-top: 4rem;
 }
 
 .y-1945{
