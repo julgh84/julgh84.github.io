@@ -772,10 +772,11 @@ h3{
 .content-decade-1A{
 
   margin:0 auto;
-  margin-top: 5em;
+  margin-top: 13em;
+
 
   width: 100%;
-  height: 100%;
+  height: 90%;
 
   display: flex;
   flex-direction: row;
@@ -787,9 +788,10 @@ h3{
 .timeline-p1A{
 
   margin-left: 0;
+  margin-top: -13rem;
 
   width: 75%;
-  height: 92%;
+  height: 102.25%;
 
   background-color: rgba(255,255,255,0.08);
 
@@ -857,15 +859,13 @@ h3{
 
   background-blend-mode: multiply;
 
-  width: 100%;
+  width: 87.5%;
   height: 100%;
 
   left: 0;
   margin-top: 0;
-  margin-left: 0;
+  margin-left: 22rem;
 
-  position: absolute;
-  z-index: 0;
 }
 
 
@@ -873,8 +873,7 @@ h3{
 .info-content-d1A{
 
   margin: 0 auto;
-  margin-top: -2.5rem;
-  margin-left: -5rem;
+  margin-top: -10rem;
 
   height: 95%;
   width: 100%;
@@ -890,16 +889,10 @@ h3{
 
 .pic-1A{
 
-
-  margin-left: 25rem; 
-  margin-top: -20rem;
+  margin: 0 auto;
 
   width: 110rem;
   height: 30rem;
-
-  position: absolute;
-  z-index: 1;
-
  
 
 }
@@ -913,21 +906,19 @@ h3{
 
 .decade1A-title{
 
+  margin: 0 auto;
   margin-top: 3rem; 
-  margin-left: 25rem;
+
   background-color: black;
   width: 110rem;
-
-  position: absolute;
-  z-index: 1;
 
 }
 
 
 .description-1A{
 
-  margin-top: 50rem;
-  margin-left: 25rem;
+  margin: 0 auto;
+  margin-top: 3rem;
 
   width: 71.825%;
 
@@ -942,6 +933,10 @@ h3{
 
 }
 
+
+/*//////////////////////////////*/
+
+/*Step-6*/
 
 
 
@@ -1054,6 +1049,9 @@ h3{
 
   /*Step-5*/
 
+  .layout-decade-1A{
+    margin-top: -10rem;
+  }
 
   .timeline-p1A, .all-d1A{
 
@@ -1066,7 +1064,7 @@ h3{
 
     width: 100%;
     height: 100%;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
 
   }
 
@@ -1074,7 +1072,7 @@ h3{
   .info-content-d1A{
 
     margin-left: -10rem;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     width: 110%;
 
   }
