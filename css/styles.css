@@ -788,7 +788,7 @@ h3{
 .timeline-p1A{
 
   margin-left: 0;
-  margin-top: -13rem;
+  margin-top: -8em;
 
   width: 75%;
   height: 92rem;
@@ -873,7 +873,7 @@ h3{
 .info-content-d1A{
 
   margin: 0 auto;
-  margin-top: -10rem;
+  margin-top: -9rem;
 
   height: 95%;
   width: 100%;
@@ -928,7 +928,9 @@ h3{
 .description-1A p{
 
   margin: 0 auto;  
-  font-size: 2rem;
+  font-size: 2.125rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
   background-color: black;
 
 }
