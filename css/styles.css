@@ -1333,7 +1333,7 @@ img{
 
 /*making it responsive*/
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 750px) {
 /*anything smaller than 480 (our breakpoint), then apply the following styles*/
 
   
@@ -1570,7 +1570,30 @@ img{
 
   }
 
+  .timeline-p1B, .all-d1B{
 
+    margin-left: 5rem;
+
+  }
+
+
+
+
+  .timeline-p1B{
+
+    width: 10rem;
+    /*height: 92rem;*/
+    margin-top: -20rem;
+
+  }
+
+
+  .info-content-d1B{
+
+    margin-top: -20rem;
+
+
+  }
 
 
 
