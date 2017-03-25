@@ -1,3 +1,5 @@
+
+
 body{
 
   background-color: black;
@@ -122,6 +124,8 @@ img{
 }
 
 /*//////////////////////////////*/
+
+
 
 /*Step-1*/
 
@@ -1210,9 +1214,9 @@ img{
 }
 
 
-.p1B .y-1948{
+.y-1948-2{
   flex-grow: 1;
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 .y-1949{
@@ -1249,14 +1253,13 @@ img{
 }
 
 
-.info-content-d1B{
+.all-d1B .info-content-d1B{
 
   margin: 0 auto;
-  /*margin-left: 8em;*/
-  margin-top: -13rem;
+  margin-top: -11rem;
 
   height: 100%;
-  width: 82%;
+  width: 87%;
 
   display: flex;
   flex-direction: row;
@@ -1268,7 +1271,7 @@ img{
 
 .description-1B{
 
-  width: 95%;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -1933,7 +1936,7 @@ img{
 
   align-self: flex-end;
 
-  width: 10%;
+  width: 0%;
   height: 101.3%;
 
   margin-top: 56.2em;
@@ -2068,8 +2071,215 @@ img{
 }
 
 
+/*//////////////////////////////*/
+
+/*Step-12*/
 
 
+.decade-2A{
+
+  position: relative;
+  margin-top: 0px;
+
+}
+
+
+.layout-decade-2A{
+
+  width: 100%;
+  height: 100%;
+
+  margin-top: 0px;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+
+.content-decade-2A{
+
+  margin:0 auto;
+  margin-top: 13em;
+
+
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+
+.timeline-p2A{
+
+  margin-left: 0;
+  margin-top: -10em;
+
+  width: 17.5rem;
+  height: 93rem;
+
+  background-color: rgba(248,143,68,0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+
+.p2A{
+ 
+  width: 100%;
+  height: 14rem;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  padding-top: 2rem;
+  padding:0 auto;
+
+}
+
+
+.y-1955{
+  flex-grow: 1;
+  padding-top: 4rem;
+}
+
+.y-1956{
+  flex-grow: 1;
+  background-color: rgba(239,68,57,0.15);
+}
+
+.y-1957{
+  flex-grow: 1;
+  padding-top: 4rem;
+}
+
+.y-1958{
+  flex-grow: 1;
+  background-color: rgba(239,68,57,0.15);
+}
+
+
+.all-d2A{
+
+  position: relative;
+
+}
+
+.halftone-bkg3{
+
+  position: absolute;
+  z-index: 0;  
+  background-image: url("img/halftone-2.jpg");
+  transform: scaleY(-1);
+  opacity: 0.25;
+
+  background-color: #f78f44;
+
+  background-blend-mode: multiply;
+
+  width: 87.5%;
+  height: 96%;
+
+  left: 0;
+  margin-top: 2rem;
+  margin-left: 22rem;
+
+}
+
+
+.info-content-d2A{
+
+  margin: 0 auto;
+  margin-top: -11rem;
+  /*margin-right: 2rem;*/
+
+  height: 100%;
+  width: 82%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+
+.description-2A{
+
+  width: 100%;
+  margin-left: -3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+
+
+.pic-2A{
+
+  margin-left: 3em;
+  margin-top: 6em;
+
+  width: 130rem;
+  height: 56rem;
+
+
+}
+
+.decade2A-title{
+
+  margin-left: 0;
+  margin-top: 0;
+  /*margin-top: 3rem;*/ 
+
+  background-color: black;
+  /*width: 110rem;*/
+
+}
+
+.decade2A-title h2{
+
+  padding-left: 0.5em;
+
+}
+
+.decade2A-description-txt{
+  margin-top: 3em;
+  width: 102%;
+}
+
+
+.decade2A-description-txt p{
+
+  margin-left: -0.5em;  
+  font-size: 2.35rem;
+  font-weight: 300;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  background-color: black;
+
+
+}
 
 
 
@@ -2083,7 +2293,7 @@ img{
 
 /*making it responsive*/
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 667px) and (orientation: landscape) {
 /*anything smaller than 480 (our breakpoint), then apply the following styles*/
 
   
@@ -2190,6 +2400,13 @@ img{
 
   /*Step-5*/
 
+  .decade-1A{
+
+    margin-top: 2em;
+
+
+  }
+
   .layout-decade-1A{
     margin-top: -10rem;
   }
@@ -2197,7 +2414,6 @@ img{
   .content-decade-1A{
 
   margin-top: 17em;
-
   height: 100%;
 
 }
@@ -2213,9 +2429,9 @@ img{
 
   .timeline-p1A{
 
-    width: 100%;
-    height: 92rem;
-    margin-top: -9rem;
+    width: 140%;
+    height: 100%;
+    margin-top: -12rem;
 
   }
 
@@ -2223,7 +2439,7 @@ img{
   .info-content-d1A{
 
     margin-left: -10rem;
-    margin-top: -2rem;
+    margin-top: -7em;
     width: 110%;
 
   }
@@ -2258,28 +2474,39 @@ img{
 
   /*Step-6*/
 
+  .layout-transition-1A{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 4em;
+
+  }
+
+
   .content-transition-1A{
 
-    margin-left: 7em;
-    margin-top: 17em;
+    margin-left: 2em;
+    margin-top: 0em;
     height: 80%;
+    width: 100%;
 
   }
 
 
   .timeline-t1A{
 
-    width: 100%;
+    width: 12rem;
     height: 92rem;
-    margin-top: -2rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
 
   }
 
 
-  .info-content-t-1A{
+  .all-d-t1A{
 
-    margin-left: 5em;
-    width: 85%;
+    margin-left: 1em;
+    width: 90%;
 
   }
 
@@ -2293,7 +2520,7 @@ img{
 
   .transition-2-txt{
 
-    width: 95%;
+    width: 90%;
     margin-left: 3em;
     margin-top: 1.5em;
 
@@ -2314,36 +2541,127 @@ img{
   /*Step-7*/
 
 
-  .layout-decade-1B{
-  
-    margin-top: 60px;
+  .decade-1B .container{
+
+    margin-top: 4rem;
+    height: 90%;
 
   }
 
-  .timeline-p1B, .all-d1B{
+  .halftone-bkg2{
+    height: 94%;
 
+  }
+
+
+  .layout-decade-1B{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 6em;
+
+  }
+
+  .content-decade-1B{
+
+    margin-top: 18rem;
+
+  }
+
+
+  .timeline-p1B{
+
+    width: 12.65rem;
+    height: 90rem;
+    margin-top: -18rem;
     margin-left: 5rem;
 
   }
 
 
+  .all-d1B{
 
-
-  .timeline-p1B{
-
-    width: 50rem;
-    /*height: 92rem;*/
-    margin-top: -20rem;
+    width: 90%;
+    margin-top: -7.5em;
 
   }
 
 
-  .info-content-d1B{
+  .pic-1B{
 
-    margin-top: -20rem;
-
+    margin-top: 10em;
 
   }
+
+
+  /*//////////////////////////////*/
+
+  /*Step-8*/
+
+  .transition-1B{
+
+    margin-top: 9rem;
+
+  }
+
+  .transition-1B .container{
+
+    width: 100%;
+    height: 100%;
+    margin-top: -2em;
+
+  }
+
+
+
+  .layout-transition-1B{
+
+    width: 100%;
+    height: 110%;
+    margin-top: -2em;
+
+  }
+
+  .content-transition-1B{
+
+    margin-left: 4em;
+    
+  }
+
+
+  .timeline-t1B{
+
+    width: 12rem;
+    height: 92rem;
+    margin-top: 0rem;
+    margin-left: -1.5rem;
+
+  }
+
+
+  .animate-bkg-slide8{
+
+    margin-left: 1em;
+    width: 70%;
+  
+  }
+
+
+  #box-12{
+    margin-top: 52em;
+    margin-left: 30em;
+    width: 96.5%;
+
+  }
+
+
+  .content-t-1B{
+
+    margin-top: -3rem;
+    width: 80%;
+
+  }
+
 
 
   /*//////////////////////////////*/
@@ -2351,15 +2669,159 @@ img{
   /*Step-9*/
 
 
+  .decade-1C{
+
+    margin-top: 10rem;
+    
+
+  }
+
+  .decade-1C .container{
+
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(255,255,255,0.08);*/
+
+  }
+
+
   .discography-decade-1{
 
-    margin-left: 45rem; 
+    margin-left: 46rem; 
+    margin-top: -1.5em;
     width: 75%;
 
   }
 
 
+  .layout-decade-1C{
 
+    width: 100%;
+    height: 110%;
+    background-color: rgba(255,255,255,0.08);
+
+  }
+
+
+  .timeline-p1C{
+
+    width: 12.65rem;
+    height: 90%;
+    margin-top: -13em;
+    margin-left: 5rem;
+
+  }
+
+
+  /*//////////////////////////////*/
+
+  /*Step-10*/
+
+
+  .transition-1C .container{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 6.5rem;
+    background-color: rgba(255,255,255,0.08);
+
+  }
+
+
+  .content-transition-1C{
+
+    margin-left: 4em;
+    margin-top: 6em;
+    height: 93.5%;
+
+
+  }
+
+
+  .timeline-t1C{
+
+    width: 12rem;
+    height: 90rem;
+    /*margin-top: 6.5rem;*/
+    margin-left: -1.5rem;
+
+  }
+
+
+  .animate-bkg-slide10{
+
+    margin-left: 3em;
+    /*width: 70%;*/
+
+  }
+
+  #box-13{
+    margin-top: 0em;
+    height: 99.75%;
+
+  }
+
+  #box-14{
+    margin-top: 56em;
+    margin-left: 92em;
+    height: 99.75%;
+
+  }
+
+  .info-content-t-1C{
+
+    width: 82%;
+    margin-left: 12em;
+    margin-top: 7em;
+  }
+
+
+  /*//////////////////////////////*/
+
+  /*Step-11*/
+
+
+  .decade-2{
+    margin-top: 6rem;
+
+  }
+
+  .decade-2 .container{
+    margin-top: 0rem;
+    height: 100%;
+    background-color: rgba(255,255,255,0.08);
+  }
+
+  .bkg-animate-step11{
+    margin-top: -7rem;
+  }
+
+  #box-15{
+    height: 93.5%;
+  }
+
+  #box-16{
+    height: 93.5%;
+  }
+
+  #box-17{
+    height: 93.5%;
+  }
+
+
+  /*//////////////////////////////*/
+
+  /*Step-12*/
+
+  .decade-2A{
+    margin-top: 3rem;
+  }
+
+  .timeline-p2A{
+
+    width: 12.65rem;
+    margin-left: 5rem;
+  }
 
 
 

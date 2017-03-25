@@ -50,7 +50,7 @@ $(function(){
       $('#song-1').animate({volume: 0}, 1000);
       //$('#song-1').get(0).pause();
 
-      $('#song-2').get(0).play();
+      // $('#song-2').get(0).play();
       $('#song-2').animate({volume: 1}, 2000);
       
 
@@ -76,7 +76,7 @@ $(function(){
 
       $('#song-2').animate({volume: 0}, 1000);
 
-      $('#song-3').get(0).play();
+      // $('#song-3').get(0).play();
       $('#song-3').animate({volume: 1}, 2000);
 
 
@@ -84,7 +84,7 @@ $(function(){
 
       colorBkgGrowStep8();
 
-      $('#song-3').get(0).play();
+      // $('#song-3').get(0).play();
 
     } else if(currentStep.id==='step-9') {
 
