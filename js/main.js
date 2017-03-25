@@ -273,8 +273,8 @@ $(function(){
 
   function colorBkgGrowStep10(){
 
-    $("#box-13").animate({width: "66%"}, 1500);
-    $("#box-14").animate({width: "20%"}, 2000);
+    $("#box-13").animate({width: "85%"}, 1500);
+    $("#box-14").animate({width: "20%"}, 1000);
 
   };
 
