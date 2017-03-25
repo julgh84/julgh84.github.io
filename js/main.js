@@ -103,7 +103,13 @@ $(function(){
 
       colorBkgGrowStep11();
 
+    } else if(currentStep.id==='step-13'){
+
+      colorBkgGrowStep13();
+
     }
+
+
 
     
 
@@ -291,6 +297,15 @@ $(function(){
     $("#d-2-name").animate({opacity: '1'}, 1800);
 
   }
+
+
+
+    function colorBkgGrowStep13(){
+
+    $("#box-18").animate({height: "80rem"}, 1800);
+    $("#box-19").animate({height: "10%"}, 1800);
+
+  };
 
 
 
