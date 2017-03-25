@@ -257,7 +257,7 @@ $(function(){
 
     function colorBkgGrowStep8(){
 
-    $("#box-11").animate({height: "67%"}, 1800);
+    $("#box-11").animate({height: "80rem"}, 1800);
     $("#box-12").animate({height: "10%"}, 2000);
 
   };
