@@ -106,6 +106,16 @@ $(function(){
     } else if(currentStep.id==='step-13'){
 
       colorBkgGrowStep13();
+      $('#bgvid').get(0).pause();
+
+    } else if(currentStep.id==='step-14'){
+
+      $('#bgvid').get(0).play();
+
+    } else if(currentStep.id==='step-15'){
+
+      // $('#bgvid').get(0).play();
+      colorBkgGrowStep15();
 
     }
 
@@ -300,12 +310,21 @@ $(function(){
 
 
 
-    function colorBkgGrowStep13(){
+  function colorBkgGrowStep13(){
 
     $("#box-18").animate({height: "80rem"}, 1800);
     $("#box-19").animate({height: "10%"}, 1800);
 
   };
+
+
+  function colorBkgGrowStep15(){
+
+    $("#box-20").animate({height: "75rem"}, 1800);
+    $("#box-21").animate({height: "13%"}, 1800);
+
+  };
+
 
 
 
