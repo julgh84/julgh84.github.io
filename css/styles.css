@@ -4060,7 +4060,7 @@ and (orientation : landscape) {
     margin-top: 7em;
   }
 
-  .layout-decade-1, .layout-decade-1A, .layout-transition-1A, .layout-decade-1B, .layout-transition-1B{
+  .layout-decade-1, .layout-decade-1A, .layout-transition-1A, .layout-decade-1B, .layout-decade-1C{
     height: 100%;
   }
 
@@ -4110,7 +4110,7 @@ and (orientation : landscape) {
 
 /*Step-6*/
 
-.content-transition-1A, .content-transition-1B {
+.content-transition-1A{
   margin-top: 0em;
   height: 100%;
 }
@@ -4148,6 +4148,16 @@ and (orientation : landscape) {
 
 /*Step-8*/
 
+.content-transition-1B {
+  margin-top: 0em;
+  height: 90%;
+
+}
+
+.layout-transition-1B {
+  height: 95%;
+}
+
 .info-content-t-1B {
   margin-top: 0em;
 }
@@ -4156,12 +4166,12 @@ and (orientation : landscape) {
 .transition-3-txt {
     
   margin-top: 3em;
-  height: 75%;
+  height: 85%;
 }
 
 
 #box-12 { 
-  margin-left: 1em;
+  margin-left: 1.5em;
   margin-top: 51.25em;
 }
 
@@ -4174,14 +4184,25 @@ and (orientation : landscape) {
 }
 
 
-
-
 /*Step-9*/
 
+.content-decade-1C {
+  margin-top: 10em;
 
+}
 
+.discography-decade-1 {
+  margin-left: 42rem;
+  margin-top: 0rem;
+  width: 75%;
+}
 
+.timeline-p1C {
 
+  height: 91rem;
+  width: 9em;
+
+}
 
 
 
