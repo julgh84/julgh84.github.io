@@ -4191,10 +4191,21 @@ and (orientation : landscape) {
 
 }
 
+/*.discography-decade-1-width{
+  width: 90%;
+}*/
+
+
 .discography-decade-1 {
-  margin-left: 40rem;
+  margin-left: 12em;
   margin-top: 0rem;
-  width: 85em;
+  width: 100%;
+}
+
+.discography{
+
+  width: 90%;
+  margin-left: 0rem;
 }
 
 .timeline-p1C {
