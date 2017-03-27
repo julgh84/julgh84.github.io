@@ -4056,12 +4056,12 @@ and (orientation : landscape) {
 
 /*Step-3*/
 
-  .timeline, .decade-1, .decade-1A, .layout-transition-1A {
-    margin-top: 6em;
+  .timeline, .decade-1, .decade-1A, .transition-1A {
+    margin-top: 7em;
   }
 
   .layout-decade-1, .layout-decade-1A, .layout-transition-1A {
-    height: 95%;
+    height: 100%;
   }
 
   .content-intro-timeline, .content-decade-1{
