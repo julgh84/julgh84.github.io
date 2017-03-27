@@ -4056,7 +4056,7 @@ and (orientation : landscape) {
 
 /*Step-3*/
 
-  .timeline, .decade-1, .transition-1A {
+  .timeline, .decade-1{
     margin-top: 7em;
   }
 
@@ -4083,12 +4083,12 @@ and (orientation : landscape) {
 
 /*Step-5*/
 
-.decade-1A{
+.decade-1A, .transition-1A, .decade-1B {
   margin-top: 5em;
 }
 
 .halftone-bkg {
-  height: 95%;
+  height: 98%;
   margin-top: -3rem;
 }
 
@@ -4107,6 +4107,24 @@ and (orientation : landscape) {
   font-size: 2.2rem;
 }
 
+/*Step-6*/
+
+.content-transition-1A {
+  margin-top: 0em;
+}
+
+.content-transition-1A {
+  height: 100%;
+}
+
+.timeline-p1A, .timeline-t1A {
+  height: 96rem;
+  width: 100%;
+}
+
+#box-10 {
+  margin-top: 52.5em;
+}
 
 
 
