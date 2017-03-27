@@ -4012,24 +4012,59 @@ and (orientation : landscape) {
 
 /*//////////////////////////////*/
 
-.box{
+/*Step-1*/
 
-  /*height: 1000px;*/
-/*  background-color: red;*/
-
+.intro-content {
+  margin-top: 7rem;
 }
 
-/*Step-3*/
+.intro-content {
+  height: 95%;
+}
 
-  .timeline, .decade-1 {
-    margin-top: 8em;
-  }
+.introMiles {
+  width: 30em;
+}
+
+.info-container h1 {
+  font-size: 15em;
+  margin-left: -1.5rem;
+}
+
+.description-1 {
+  width: 125%;
+  height: 105%;
+}
+
+.description-1 p{
+  font-size: 2.4em;
+  line-height: 1.6;
+}
+
+
+
+/*Step-2*/
 
   #box-4{
     height: 92%;
   }
 
-  .content-intro-timeline, .content-decade-1 {
+  .info-content-t-1 {
+    margin-top: 3em;
+  }
+
+
+/*Step-3*/
+
+  .timeline, .decade-1, .decade-1A, .layout-transition-1A {
+    margin-top: 6em;
+  }
+
+  .layout-decade-1, .layout-decade-1A, .layout-transition-1A {
+    height: 95%;
+  }
+
+  .content-intro-timeline, .content-decade-1{
     margin-top: -9.5rem;
 
   }
@@ -4045,6 +4080,29 @@ and (orientation : landscape) {
 .bkg-animate-step4 {
   margin-top: -5em;
 }
+
+/*Step-5*/
+
+.halftone-bkg {
+  height: 95%;
+  margin-top: -3rem;
+}
+
+.content-decade-1A {
+
+  margin-top: 9em;
+
+}
+
+.info-content-d1A {
+  margin-top: -10rem;
+  height: 100%;
+}
+
+.description-1A p {
+  font-size: 2.2rem;
+}
+
 
 
 
