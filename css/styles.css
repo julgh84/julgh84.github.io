@@ -4005,7 +4005,8 @@ video {
 @media only screen 
 and (min-width : 884px) 
 and (max-width : 1024px)
-and (max-height: 610px) 
+and (min-height: 560px) 
+and (max-height: 768px) 
 and (orientation : landscape) { 
 
 
