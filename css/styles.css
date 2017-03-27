@@ -4056,7 +4056,7 @@ and (orientation : landscape) {
 
 /*Step-3*/
 
-  .timeline, .decade-1, .decade-1B, .transition-1B{
+  .timeline, .decade-1, .decade-1B, .transition-1B, .decade-1C{
     margin-top: 7em;
   }
 
@@ -4125,6 +4125,8 @@ and (orientation : landscape) {
   margin-top: 51em;
 }
 
+
+
 /*Step-7*/
 
 .content-decade-1B {
@@ -4137,17 +4139,41 @@ and (orientation : landscape) {
 }
 
 .timeline-p1B {
-  width: 8.9em;
+  width: 9em;
+}
+
+.all-d1B .info-content-d1B {
+    margin-left: 5em;
 }
 
 /*Step-8*/
 
+.info-content-t-1B {
+  margin-top: 0em;
+}
+
 
 .transition-3-txt {
     
-  margin-top: -1em;
+  margin-top: 3em;
   height: 75%;
 }
+
+
+#box-12 { 
+  margin-left: 2em;
+  margin-top: 51.25em;
+}
+
+
+.timeline-t1B{
+
+  height: 91rem;
+  width: 9em;
+
+}
+
+
 
 
 /*Step-9*/
