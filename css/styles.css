@@ -4056,7 +4056,7 @@ and (orientation : landscape) {
 
 /*Step-3*/
 
-  .timeline, .decade-1, .decade-1A, .transition-1A {
+  .timeline, .decade-1, .transition-1A {
     margin-top: 7em;
   }
 
@@ -4082,6 +4082,11 @@ and (orientation : landscape) {
 }
 
 /*Step-5*/
+
+.decade-1A{
+  margin-top: 6em;
+
+}
 
 .halftone-bkg {
   height: 95%;
