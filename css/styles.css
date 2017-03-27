@@ -4022,7 +4022,11 @@ and (orientation : landscape) {
 /*Step-3*/
 
   .timeline, .decade-1 {
-    margin-top: 6em;
+    margin-top: 7em;
+  }
+
+  #box-4{
+    height: 92%;
   }
 
   .content-intro-timeline, .content-decade-1 {
